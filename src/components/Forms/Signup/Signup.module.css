@@ -1,0 +1,65 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.container .imageContainer{
+    background-image: url("https://images.unsplash.com/photo-1587502536900-baf0c55a3f74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8OHx8YmVhY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+}
+.container form{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container form h2{
+    font-size: 40px;
+}
+.container form div{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.container form .checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.container form .checkbox input{
+    margin-right: 20px;
+    margin-top: 35px;
+    font-size: 30px;
+}
+.container form div label{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container form div input{
+    margin-bottom: 40px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.container form div input:focus{
+    outline: violet;
+    border: 3px solid violet;
+}
+.container form div input::placeholder{
+    font-size: 18px;
+}
+.container form div button{
+    background-color: #4586FF;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    font-size:24px ;
+    font-weight: bold;
+}
