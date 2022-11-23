@@ -82,7 +82,7 @@ navigate("/login")
     })
     useEffect(()=>{
       loadInitialState()
-    },[])
+    },)
     console.log(state)
 
     const loadInitialState =()=>{

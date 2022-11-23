@@ -9,7 +9,7 @@ const BookingForm = () => {
       <div className={styles.mainContainer}>
       <div className={styles.formContainer}>
         <div className={styles.imageContainer}>
-           <img src="https://media.istockphoto.com/photos/drone-view-of-woman-snorkelling-in-the-maldives-picture-id1299305921?b=1&k=20&m=1299305921&s=170667a&w=0&h=mVo_49ijB244Gu7YiVXrsMqqdm1GryM5SRuIG0M_vF8=" alt="image"/> 
+           <img src="https://media.istockphoto.com/photos/drone-view-of-woman-snorkelling-in-the-maldives-picture-id1299305921?b=1&k=20&m=1299305921&s=170667a&w=0&h=mVo_49ijB244Gu7YiVXrsMqqdm1GryM5SRuIG0M_vF8=" alt="form"/> 
         </div>
 
         <div  className={styles.form}>

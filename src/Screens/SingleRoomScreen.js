@@ -12,15 +12,13 @@ const SingleRoom = () => {
   const {slug} = useParams()
 
   useEffect(() => {
-      console.log('roomcalled')
-      console.log(slug)
+      
       if(!room || slug !== room.slug){
         const rm=  gettingSingleRm(slug)
-        console.log(rm, rm)
         setRoom(rm)
        setLoading(false)
       }
-  }, [slug])
+  }, [slug,room,room.slug,gettingSingleRm])
   console.log(room) 
 
   return (

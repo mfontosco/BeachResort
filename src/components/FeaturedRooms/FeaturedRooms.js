@@ -2,7 +2,7 @@ import React,{useContext} from 'react'
 import { GlobalContext } from '../../context'
 import styles from './FeaturedRooms.module.css'
 import { Link } from 'react-router-dom'
-import room1 from './room-7.jpeg'
+
 const FeaturedRooms = () => {
     const {featuredRooms} = useContext(GlobalContext)
     console.log(featuredRooms)
