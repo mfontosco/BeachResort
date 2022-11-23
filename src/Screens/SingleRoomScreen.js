@@ -18,7 +18,7 @@ const SingleRoom = () => {
         setRoom(rm)
        setLoading(false)
       }
-  }, [slug,room,room.slug,gettingSingleRm])
+  }, [slug])
   console.log(room) 
 
   return (
